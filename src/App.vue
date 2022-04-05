@@ -1,16 +1,13 @@
 <template>
-<body>
   <router-view/>
-  </body>
 </template>
 
 <style>
 body{
-   background: #C8E6FF;
-
+  background: #C8E6FF;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Cera Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
