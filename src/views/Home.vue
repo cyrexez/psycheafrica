@@ -13,7 +13,7 @@
 <script>
 // @ is an alias to /src
 
-import Navbar from '@/components/navbar.vue'
+import Navbar from '@/components/Navbar.vue'
 import Paidmoney from '@/components/paidmoney.vue'
 import Bankingcrypto from '@/components/bankingcrypto.vue'
 import Footer from '@/components/footer.vue'
