@@ -5,9 +5,9 @@
     <p>{{ year }} 2022 Psyche Africa . All rights reserved</p>
   </div>
     <div>  
-      <img src="../assets/img/bi_linkedin.png">
-      <img src="../assets/img/fa-brands_twitter.png">
-      <img src="../assets/img/facebook.png">
+     <a href=""><img src="../assets/img/bi_linkedin.png"></a>
+     <a href=""><img src="../assets/img/fa-brands_twitter.png"></a>
+     <a href=""><img src="../assets/img/facebook.png"></a>
     </div>
 </div>
 
