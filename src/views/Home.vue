@@ -4,6 +4,7 @@
   <Hero/>
   <PaidMoney/>
   <BankingCrypto/>
+  <MultiCurrency />
   <Footer/>
 
 </template>
@@ -16,6 +17,7 @@ import Hero from "../components/Hero.vue";
 import PaidMoney from '../components/PaidMoney.vue'
 import BankingCrypto from '../components/BankingCrypto.vue'
 import Footer from '../components/Footer.vue'
+import MultiCurrency from "../components/MultiCurrency.vue";
 
 export default {
   name: 'Home',
@@ -23,6 +25,7 @@ export default {
     Navbar,
     Hero,
     PaidMoney,
+    MultiCurrency,
     BankingCrypto,
     Footer
   }

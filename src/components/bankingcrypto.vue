@@ -3,25 +3,17 @@
     <h3>Banking Meets Crypto</h3>
     <p>Save naira cash, spend in dollars, Euro or Crypto while seamlessly managing all your cash and crypto in one place.</p>
   </div>
-<div class="firstflex">
-
-
-    <div>
-    <div><img alt="Psyche logo" src="../assets/img/Group19.png"> 
-    <img alt="Psyche logo" src="../assets/img/Group25.png"> </div>
-    
-    
+  <div class="banking-crypto">
+    <div class="col-1">
+      <img alt="Psyche logo" src="../assets/img/Group19.png"> 
+      <img alt="Psyche logo" src="../assets/img/Group25.png">
     </div>
-
-      <div>
-  
-
-    <img alt="Psyche logo" src="../assets/img/Group35.png"> 
+    <div class="col-2">
+      <img alt="Psyche logo" src="../assets/img/Group35.png"> 
       <img alt="Psyche logo" src="../assets/img/Group47.png"> 
-     
     </div>
 
-</div>
+  </div>
 
 </template>
 
@@ -54,5 +46,24 @@ export default {
     max-width: 450px;
     margin: auto;
     margin-top: 6px;
+  }
+  .banking-crypto {
+    display: flex;
+    margin-bottom: 80px;
+  }
+  .col-1, .col-2 {
+    width: 50%;
+    padding: 15px;
+  }
+  .col-1 img {
+    float: right;
+    margin: 15px 0;
+  }
+  .col-2 {
+    margin-top: 120px;
+  }
+  .col-2 img {
+    float: left;
+    margin: 15px 0;
   }
 </style>

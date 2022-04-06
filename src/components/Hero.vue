@@ -4,7 +4,7 @@
                 <p>Multi-currencies with a single account</p>
                 <h1> Save Money<span>,</span> Send Money <span>and</span> Get Paid <span>in Crypto</span></h1>
                 <p>Psyche lets you fly the world without any exchange rate hurdles, spending limit just with a single debit card for all. </p>
-                <button class="blue-btn">Get Early Access</button>
+                <EarlyAccess/>
         </div>
         <div class="hero-image">
             <img src="../assets/img/man.png" alt="">
@@ -17,8 +17,9 @@
     
 </template>
 <script>
+import EarlyAccess from '../components/EarlyAccess.vue'
 export default {
-    
+    components: {EarlyAccess}
 }
 </script>
 <style scoped>
@@ -68,17 +69,6 @@ export default {
         background: url('../assets/img/bluevector.png');
         background-repeat: no-repeat;
         background-position: top center;
-    }
-    .blue-btn{
-        padding: 12px;
-        background: #0F5CA8;
-        border-radius: 5px;
-        letter-spacing: -0.24px;
-        color: #FFFFFF;
-        outline: none;
-        border: none;
-        font-size: 16px;
-        margin-top: 20px;
     }
     .frames {
         background: transparent;

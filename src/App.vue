@@ -5,6 +5,7 @@
 <style>
 body{
   background: #C8E6FF;
+  padding: 0;
 }
 #app {
   font-family: 'Cera Pro';

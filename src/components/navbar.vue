@@ -4,7 +4,7 @@
       <div class="logo"><img alt="Psyche logo" src="../assets/img/psyche.png"></div>
       <div style="margin:auto 0;">
         <router-link to="/login"><button class="login-btn">Login</button></router-link>
-        <button class="blue-btn">Get Early Access</button>
+        <EarlyAccess/>
       </div>
     <!-- <ul>
         <li class="logo"></li>
@@ -16,8 +16,12 @@
 </template>
 
 <script>
+  
+import EarlyAccess from '../components/EarlyAccess.vue'
+
 export default {
   name: 'Navbar',
+  components: {EarlyAccess},
   props: {
   
   }
@@ -44,15 +48,6 @@ nav{
   border-radius: 8px;
   letter-spacing: -0.24px;
   color: #000000;
-}
-.blue-btn{
-  padding: 12px;
-  background: #0F5CA8;
-  border-radius: 5px;
-  letter-spacing: -0.24px;
-  color: #FFFFFF;
-  outline: none;
-  border: none;
 }
 
 </style>
