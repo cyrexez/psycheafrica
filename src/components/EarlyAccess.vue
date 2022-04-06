@@ -1,5 +1,5 @@
 <template>
-        <button class="blue-btn">Get Early Access</button>
+    <button class="blue-btn">Get Early Access</button>
 </template>
 <script>
 export default {
