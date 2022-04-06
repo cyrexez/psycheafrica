@@ -4,7 +4,7 @@
 <p>Be one of the first to know when we launch officially.</p>
 <button class="bluebutton"> Get Early Access</button>
 <div class="flex">
-<p> All rights reserved</p> <img src="../assets/bi_linkedin.png"><img src="../assets/fa-brands_twitter.png"><img src="../assets/facebook.png">
+<p> All rights reserved</p> <img src="../assets/img/bi_linkedin.png"><img src="../assets/img/fa-brands_twitter.png"><img src="../assets/img/facebook.png">
 </div>
 </div>
 
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Footer',
   props: {
     msg: String
   }

@@ -10,8 +10,8 @@
 
 
     <div>
-    <div><img alt="Psyche logo" src="../assets/Group19.png"> 
-    <img alt="Psyche logo" src="../assets/Group25.png"> </div>
+    <div><img alt="Psyche logo" src="../assets/img/Group19.png"> 
+    <img alt="Psyche logo" src="../assets/img/Group25.png"> </div>
     
     
     </div>
@@ -19,8 +19,8 @@
       <div>
   
 
-    <img alt="Psyche logo" src="../assets/Group35.png"> 
-      <img alt="Psyche logo" src="../assets/Group47.png"> 
+    <img alt="Psyche logo" src="../assets/img/Group35.png"> 
+      <img alt="Psyche logo" src="../assets/img/Group47.png"> 
      
     </div>
 
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'Paidmoney',
+  name: 'BankingCrypto',
   props: {
   
   }

@@ -46,6 +46,7 @@ nav{
   border-radius: 8px;
   letter-spacing: -0.24px;
   color: #000000;
+  text-decoration: none;
   }
 .blue-btn{
   padding: 10px;
@@ -57,6 +58,8 @@ nav{
   line-height: 24px;
   letter-spacing: -0.24px;
   color: #FFFFFF;
+  outline: none;
+  border: none;
 }
 
 </style>

@@ -8,9 +8,9 @@
 
 
     <div>
-    <div><img alt="Psyche logo" src="../assets/bitcoin.png"> 
-    <img alt="Psyche logo" src="../assets/pound.png"> </div>
-    <div> <img alt="Psyche logo" src="../assets/dollar.png"></div>
+    <div><img alt="Psyche logo" src="../assets/img/bitcoin.png"> 
+    <img alt="Psyche logo" src="../assets/img/pound.png"> </div>
+    <div> <img alt="Psyche logo" src="../assets/img/dollar.png"></div>
     
     </div>
 
@@ -19,9 +19,9 @@
   <p>Set up a direct deposit and recieve part of your payment in Dollar cash,
    Euro Cash, Naira Cash or Crypto in any wallet of your choice.</p>
 
-  <div><p><img alt="Psyche logo" src="../assets/greencheck.png"> Seamless and Fast </p></div>
-    <div><p ><img alt="Psyche logo" src="../assets/greencheck.png"> No Transaction Fee</p></div>
-      <div><p><img alt="Psyche logo" src="../assets/greencheck.png"> Withdraw in cash or to any wallet of your choice </p></div>
+  <div><p><img alt="Psyche logo" src="../assets/img/greencheck.png"> Seamless and Fast </p></div>
+    <div><p ><img alt="Psyche logo" src="../assets/img/greencheck.png"> No Transaction Fee</p></div>
+      <div><p><img alt="Psyche logo" src="../assets/img/greencheck.png"> Withdraw in cash or to any wallet of your choice </p></div>
     </div>
 
 </div>
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'Paidmoney',
+  name: 'PaidMoney',
   props: {
   
   }

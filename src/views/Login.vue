@@ -1,6 +1,6 @@
 <template>
  
- <img alt="Vue logo" src="../assets/psyche.png">
+ <img alt="Vue logo" src="../assets/img/psyche.png">
  <body class="alignform">
    <form class="loginform">
    
@@ -25,7 +25,7 @@
 
 
 export default {
-  name: 'Home',
+  name: 'Login',
   components: {
 
   }
