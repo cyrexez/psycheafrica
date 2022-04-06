@@ -6,21 +6,28 @@
  <body class="alignform">
    <form class="loginform">
    
-    <h2>Login</h2>
+    <h2>Get Early Access</h2>
+       <label>Full Name</label><br>
+      <input type="text" class="input" required><br>
  
       <label>Email Address</label><br>
-      <input type="text" class="input" required><br><br>
+      <input type="text" class="input" required><br>
+      <label>Phone Number</label><br>
+      <div style="display:flex; padding:10px; margin-left:auto; margin-right:auto;">
+      <div class="numberbox"><p>+234</p></div>&nbsp;
+      <input type="text" class="inputnumber" required></div>
        <label>Password</label><br>
       <input class="input" type="password" required>
       <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
       <br>
-      <div class="remember"> <p class="rememberme"><input type="checkbox">Remember me</p> &emsp;  &emsp;  &emsp;  &emsp;  &emsp; 
-       <p class="password">    <router-link to="/forgotpassword">  Forgot Password?</router-link></p></div>
+      <div class="remember"> <p class="rememberme"><input type="checkbox">Remember me</p> &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  <p class="password">      Forgot Password?</p></div>
       <button type="submit" class="submit">Login</button>
+           <div class="remember"> <p class="rememberme"><input type="checkbox">By clicking the “Get Access” button, you agree
+            to Psyche Africa Terms and Conditions</p> </div>
       </form>
 
- 
-     <div class="alignend"> <p class="needac">  Need an Account?</p> &nbsp; <p class="getac"><router-link to="/getaccess"> Get Access</router-link></p></div>
+ <br>
+     <div class="alignend"> <p class="needac">  Already have an Account?</p> &nbsp; <p class="getac"><router-link to="/otp"> Login</router-link></p></div>
   </body>
 </template>
 
@@ -38,6 +45,25 @@ export default {
 }
 </script>
 <style scoped>
+.numberbox{
+  
+  align-text:center;
+  align-items:center;
+  justify-content:center;
+  width:74px;
+height:40px;
+border: 1px solid rgba(89, 89, 89, 0.5);
+box-sizing: border-box;
+border-radius: 8px;
+
+}
+.inputnumber{
+width:230px;
+height:40px;
+border: 1px solid rgba(89, 89, 89, 0.5);
+box-sizing: border-box;
+border-radius: 8px;
+}
 .remember{
      justify-content:left;
   align-items:left;
@@ -102,8 +128,8 @@ justify-content:center;
 .loginform{
     margin-left: auto;
     margin-right: auto;
-  width: 383px;
-height: 372px;
+width: 383px;
+height: 600px;
  justify-content:center;
   align-center:center;
 

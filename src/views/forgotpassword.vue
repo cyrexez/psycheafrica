@@ -6,21 +6,17 @@
  <body class="alignform">
    <form class="loginform">
    
-    <h2>Login</h2>
+    <h2>PASSWORD RESET</h2>
  
       <label>Email Address</label><br>
-      <input type="text" class="input" required><br><br>
-       <label>Password</label><br>
-      <input class="input" type="password" required>
-      <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
-      <br>
-      <div class="remember"> <p class="rememberme"><input type="checkbox">Remember me</p> &emsp;  &emsp;  &emsp;  &emsp;  &emsp; 
-       <p class="password">    <router-link to="/forgotpassword">  Forgot Password?</router-link></p></div>
-      <button type="submit" class="submit">Login</button>
+      <input type="text" class="input" required><br>
+   <br>
+<br> 
+      <button type="submit" class="submit"><router-link to="/resetpassword">Reset Password</router-link></button>
       </form>
 
- 
-     <div class="alignend"> <p class="needac">  Need an Account?</p> &nbsp; <p class="getac"><router-link to="/getaccess"> Get Access</router-link></p></div>
+
+     <div class="alignend"> <p class="needac">  Remember your password?</p> &nbsp; <p class="getac"><router-link to="/login"> Login</router-link></p></div>
   </body>
 </template>
 
@@ -102,8 +98,8 @@ justify-content:center;
 .loginform{
     margin-left: auto;
     margin-right: auto;
-  width: 383px;
-height: 372px;
+width: 383px;
+height: 267px;
  justify-content:center;
   align-center:center;
 
