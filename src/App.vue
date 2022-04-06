@@ -7,13 +7,14 @@ body{
   background: #C8E6FF;
 }
 #app {
-  font-family: 'Cera Pro', sans-serif;
+  font-family: 'Cera Pro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 16px;
 }
-
+/* }
 #nav {
   padding: 30px;
 }
@@ -25,5 +26,5 @@ body{
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 </style>

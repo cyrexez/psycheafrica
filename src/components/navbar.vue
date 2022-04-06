@@ -2,7 +2,7 @@
 
   <nav>
       <div class="logo"><img alt="Psyche logo" src="../assets/img/psyche.png"></div>
-      <div>
+      <div style="margin:auto 0;">
         <router-link to="/login"><button class="login-btn">Login</button></router-link>
         <button class="blue-btn">Get Early Access</button>
       </div>
@@ -37,25 +37,18 @@ nav{
 }
 .login-btn{
   display: inline-block;
-  padding: 10px;
+  padding: 11px;
+  margin-right: 14px;
   background: transparent;
-  width: 61px;
-  height: 44px;
   border: 1px solid #0F5CA8;
-  box-sizing: border-box;
   border-radius: 8px;
   letter-spacing: -0.24px;
   color: #000000;
-  text-decoration: none;
-  }
+}
 .blue-btn{
-  padding: 10px;
-  width: 140px;
-  height: 44px;
+  padding: 12px;
   background: #0F5CA8;
-  border-radius: 1px;
-  font-size: 16px;
-  line-height: 24px;
+  border-radius: 5px;
   letter-spacing: -0.24px;
   color: #FFFFFF;
   outline: none;
