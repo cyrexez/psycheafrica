@@ -1,24 +1,23 @@
 <template>
- 
- <img alt="Vue logo" src="../assets/img/psyche.png">
+ <head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ </head>
+ <img alt="Vue logo" src="../assets/psyche.png">
  <body class="alignform">
    <form class="loginform">
    
-    <h2>Login</h2>
+    <h2>RESET YOUR PASSWORD</h2>
+    <label>Hi from Psyche Africa, enter your new password to Continue </label>
  
-      <label>Email Address</label><br>
-      <input type="text" class="input" required><br><br>
-       <label>Password</label><br>
-      <input class="input" type="password" required>
-      <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
-      <br>
-      <div class="remember"> <p class="rememberme"><input type="checkbox">Remember me</p> &emsp;  &emsp;  &emsp;  &emsp;  &emsp; 
-       <p class="password">    <router-link to="/forgotpassword">  Forgot Password?</router-link></p></div>
-      <button type="submit" class="submit">Login</button>
+      <label>New Password</label><br>
+      <input type="password" class="input" required><br>
+   <br>
+<br> 
+      <button type="submit" class="submit">Reset Password</button>
       </form>
 
- 
-     <div class="alignend"> <p class="needac">  Need an Account?</p> &nbsp; <p class="getac"><router-link to="/getaccess"> Get Access</router-link></p></div>
+
+     <div class="alignend"> <p class="needac">  Remember your password?</p> &nbsp; <p class="getac"><router-link to="/login"> Login</router-link></p></div>
   </body>
 </template>
 
@@ -28,7 +27,7 @@
 
 
 export default {
-  name: 'Login',
+  name: 'Home',
   components: {
 
   }
@@ -100,8 +99,8 @@ justify-content:center;
 .loginform{
     margin-left: auto;
     margin-right: auto;
-  width: 383px;
-height: 372px;
+width: 383px;
+height: 267px;
  justify-content:center;
   align-center:center;
 

@@ -1,24 +1,40 @@
 <template>
- 
- <img alt="Vue logo" src="../assets/img/psyche.png">
+ <head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ </head>
+ <img alt="Vue logo" src="../assets/psyche.png">
  <body class="alignform">
    <form class="loginform">
-   
-    <h2>Login</h2>
- 
-      <label>Email Address</label><br>
-      <input type="text" class="input" required><br><br>
-       <label>Password</label><br>
-      <input class="input" type="password" required>
-      <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
-      <br>
-      <div class="remember"> <p class="rememberme"><input type="checkbox">Remember me</p> &emsp;  &emsp;  &emsp;  &emsp;  &emsp; 
-       <p class="password">    <router-link to="/forgotpassword">  Forgot Password?</router-link></p></div>
-      <button type="submit" class="submit">Login</button>
+     <br>
+   <img src="../assets/mail.png">
+    <h2>Enter Your O.T.P</h2>
+
+      <p class="rememberme">A 6-Figure Code has been sent to your Email <span style="  font-family: 'Cera Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+letter-spacing: -0.24px;
+
+color: #0F5CA8;">psycheafrica@gmail.com. </span>Enter the OTP Number below</p>
+       <div class="alignend">
+          <input type="text" class="input" required>
+             <input type="number" class="input" required><br><br><br>
+                <input type="number" class="input" required><br>
+                   <input type="number" class="input" required><br>
+                      <input type="number" class="input" required><br>
+                         <input type="number" class="input" required>
+       </div>
+      
+       <p class="rememberme">Didn't get an email?</p> 
+       <p class="password">    <router-link to="/forgotpassword">  Click here to receive</router-link></p>
+     
       </form>
 
  
-     <div class="alignend"> <p class="needac">  Need an Account?</p> &nbsp; <p class="getac"><router-link to="/getaccess"> Get Access</router-link></p></div>
+   
   </body>
 </template>
 
@@ -28,7 +44,7 @@
 
 
 export default {
-  name: 'Login',
+  name: 'Home',
   components: {
 
   }
@@ -79,12 +95,14 @@ color: #595959;
     box-shadow: 0 0 3px currentColor;
 }
 .input{
-width: 312px;
-height: 40px;
+width: 41px;
+height: 45px;
+padding: 20px;
+margin: 0 auto;
 
-border: 1px solid rgba(89, 89, 89, 0.5);
+border: 0.5px solid #595959;
 box-sizing: border-box;
-border-radius: 8px;
+border-radius: 3px;
 }
 body{
  
