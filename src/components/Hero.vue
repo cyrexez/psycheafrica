@@ -26,7 +26,7 @@ export default {
     .hero {
         display: flex;
         justify-content: space-between;
-        padding: 20px 80px;
+        padding: 20px 80px 0;
     }
     .hero-content, .hero-image {
         width: 50%;
