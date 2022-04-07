@@ -4,7 +4,7 @@
   <div>
     <p>{{ year }} 2022 Psyche Africa . All rights reserved</p>
   </div>
-    <div>  
+    <div class="socials">  
      <a href=""><img src="../assets/img/bi_linkedin.png"></a>
      <a href=""><img src="../assets/img/fa-brands_twitter.png"></a>
      <a href=""><img src="../assets/img/facebook.png"></a>
@@ -35,5 +35,8 @@ export default {
     display: flex;
     justify-content: space-between;
     padding: 10px 80px;
+  }
+  .socials img {
+    margin: 10px 6px 0;    
   }
 </style>
