@@ -77,4 +77,30 @@ export default {
       color: #0d0d0d;
       margin: 0 0 5px;
     }
+    @media screen and (max-width: 768px) {
+      .paid-money { 
+        padding: 10px;
+      }
+      .image-div img {
+        width: 150px;
+      }
+      .text-div {
+        padding: 40px 20px ;
+      }
+    }
+    @media screen and (max-width: 576px) {
+      .paid-money { 
+        padding: 30px 5px;
+        flex-direction: column;
+      }
+      .image-div img {
+        width: 120px;
+      }
+      .text-div {
+        padding: 10px 5px;
+      }
+       .image-div, .text-div {
+        width: 100%;
+      }
+    }
 </style>

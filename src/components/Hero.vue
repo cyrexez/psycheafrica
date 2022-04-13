@@ -69,11 +69,13 @@ export default {
         background: url('../assets/img/bluevector.png');
         background-repeat: no-repeat;
         background-position: top center;
+        background-size: contain;
     }
     .frames {
         background: transparent;
-        position: relative;
-        top: -176px;
+        position: absolute;
+        width: 600px;
+        top: 500px;
     }
     .frames img {
         display: block;
@@ -83,5 +85,51 @@ export default {
     }
     .frames img:last-of-type {
         float: right;
+    }
+    @media screen and (max-width: 768px) {
+        .hero {
+            padding: 25px 10px 0;
+        }
+         .hero-content, .hero-image {
+            width: 47%;
+            display: inline-block;
+        }
+         .hero-content h1 {
+            font-size: 36px;
+            line-height: 46px;
+            color: #0F5CA8;
+            margin: 0;
+        }
+        .frames {
+            top: 350px;
+            width: 350px;
+        }
+        .hero-image >img {
+            width: 350px;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        .hero {
+            padding: 25px 5px 0;
+            flex-direction: column-reverse;
+        }
+         .hero-content, .hero-image {
+            width: 100%;
+            display: block;
+        }
+        .hero-content {
+            padding: 15px 0 30px;
+        }
+        .hero-image {
+       
+            box-sizing: content-box; }
+        .hero-image >img {
+            width: 350px;
+            height: auto;
+        }
+        .hero-content {
+
+        }
     }
 </style>

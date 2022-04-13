@@ -2,7 +2,7 @@
 <JoinUs/>
 <div class="footer">
   <div>
-    <p>{{ year }} 2022 Psyche Africa . All rights reserved</p>
+    <p>2022 Psyche Africa . All rights reserved</p>
   </div>
     <div class="socials">  
      <a href=""><img src="../assets/img/bi_linkedin.png"></a>
@@ -39,4 +39,15 @@ export default {
   .socials img {
     margin: 10px 6px 0;    
   }
+   @media screen and (max-width: 768px) {
+        .footer {
+            padding: 10px;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        .footer {
+            padding: 10px 5px;
+            flex-direction: column;
+        }
+    }
 </style>

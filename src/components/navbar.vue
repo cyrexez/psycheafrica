@@ -2,7 +2,7 @@
 
   <nav>
       <div class="logo"><img alt="Psyche logo" src="../assets/img/psyche.png"></div>
-      <div style="margin:auto 0;">
+      <div v-if="mobile" class="other">
         <router-link to="/login"><button class="login-btn">Login</button></router-link>
         <EarlyAccess/>
       </div>
@@ -22,8 +22,8 @@ import EarlyAccess from '../components/EarlyAccess.vue'
 export default {
   name: 'Navbar',
   components: {EarlyAccess},
-  props: {
-  
+  setup(props) {
+    
   }
 }
 </script>
@@ -35,7 +35,7 @@ nav{
   padding: 40px 80px;
   justify-content: space-between;
 }
-.logo{
+.logo img{
   height: 46px;
   width: auto;
 }
@@ -49,5 +49,30 @@ nav{
   letter-spacing: -0.24px;
   color: #000000;
 }
-
+.other {
+  margin: auto 0;
+}
+@media screen and (max-width: 768px) {
+    nav {
+      padding: 10px;
+    }
+  }
+@media screen and (max-width: 576px) {
+    nav {
+      padding: 5px;
+    }
+    .logo {
+      margin: auto;
+    }
+    .logo img{
+      height: 38px;
+      width: auto;
+    }
+    .other {
+      display: none;
+    }
+    .login-btn {
+      margin-right: 8px;
+    }
+  }
 </style>

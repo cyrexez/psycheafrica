@@ -1,5 +1,7 @@
 <template>
-    <button class="blue-btn">Get Early Access</button>
+    <router-link to="/Login">
+        <button class="blue-btn">Get Early Access</button>
+    </router-link>
 </template>
 <script>
 export default {
@@ -8,7 +10,7 @@ export default {
 </script>
 <style scoped>
     .blue-btn{
-        padding: 12px;
+        padding: 10px;
         background: #0F5CA8;
         border-radius: 5px;
         letter-spacing: -0.24px;
@@ -16,6 +18,6 @@ export default {
         outline: none;
         border: none;
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 </style>

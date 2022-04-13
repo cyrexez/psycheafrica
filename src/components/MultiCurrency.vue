@@ -53,4 +53,28 @@ export default {
       letter-spacing: -0.23999999463558197px;
       color: #595959;
     }
+     @media screen and (max-width: 768px) {
+        .multi-currency {
+            padding: 25px 10px;
+            justify-content: space-between;
+        }
+         .image-div, .text-div {
+          width: 45%;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        .multi-currency {
+          padding: 5px;
+          flex-direction: column;
+        }
+        .image-div, .text-div {
+          width: 100%;
+        }
+        .image-div img{
+            width: 320px;
+        }
+        .text-div {
+          padding: 30px 5px;
+        }
+    }
 </style>

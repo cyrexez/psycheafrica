@@ -66,4 +66,39 @@ export default {
     float: left;
     margin: 15px 0;
   }
+   @media screen and (max-width: 768px) {
+        .banking-crypto {
+            padding: 0 10px;
+        }
+         .col-1, .col-2 {
+          width: 45%;
+          padding: 10px;
+        }
+        .col-1 img, .col-2 img {
+            width: 320px;
+            height: auto;
+        }
+
+    }
+     @media screen and (max-width: 576px) {
+        .heading {
+          margin: 40px 0 20px;
+          padding: 5px;
+        }
+        .banking-crypto {
+            padding: 0 5px;
+            flex-direction: column;
+        }
+        .col-1, .col-2 {
+          width: 100%;
+          padding: 5px;
+          text-align: center;
+        }
+        .col-1 img, .col-2 img {
+          float: none;
+        } 
+        .col-2 {
+          margin-top: 15px;
+        }
+     }
 </style>
