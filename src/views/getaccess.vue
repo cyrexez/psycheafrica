@@ -41,7 +41,7 @@ import LoginTemp from '@/components/LoginTemp.vue'
 import TextInput from '@/components/TextInput.vue'
 
 export default {
-  name: 'Home',
+  name: 'GetAccess',
   components: {
     LoginTemp,
     TextInput

@@ -63,7 +63,7 @@ export default {
         margin-top: 15px;
     }
     .extra{
-        margin-top: 15px;
+        margin: 15px auto 40px;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
