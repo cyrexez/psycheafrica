@@ -3,7 +3,7 @@
     <template #heading>
      reset your password
      <div class="enter-pw">
-       Hi Psyche, enter your new password to continue 
+       Hi Psyche user, enter your new password to continue 
      </div>
     </template>
     <template #form>

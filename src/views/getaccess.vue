@@ -22,7 +22,7 @@
       <div class="remember">
         <input type="checkbox">
         <p>By clicking the “Get Access” button, you agree
-        to Psyche Africa <a href=""> Terms and Conditions</a></p> 
+        to Psyche Finance <a href=""> Terms and Conditions</a></p> 
       </div>
 
     </template>
