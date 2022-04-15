@@ -1,9 +1,8 @@
 <template>
  
- <img alt="Vue logo" src="../assets/img/psyche.png">
- <body class="alignform">
+ <img alt="logo" src="../assets/img/psyche.png">
+ <div class="alignform">
    <form class="loginform">
-   
     <h2>Login</h2>
  
       <label>Email Address</label><br>
@@ -19,7 +18,7 @@
 
  
      <div class="alignend"> <p class="needac">  Need an Account?</p> &nbsp; <p class="getac"><router-link to="/getaccess"> Get Access</router-link></p></div>
-  </body>
+  </div>
 </template>
 
 <script>
@@ -37,9 +36,9 @@ export default {
 </script>
 <style scoped>
 .remember{
-     justify-content:left;
+  justify-content:left;
   align-items:left;
-  align-text:left;
+  text-align:left;
   display: flex;
   margin-left: 30px;
 

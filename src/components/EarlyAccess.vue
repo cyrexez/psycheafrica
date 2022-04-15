@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/Login">
+    <router-link to="/getaccess">
         <button class="blue-btn">Get Early Access</button>
     </router-link>
 </template>
