@@ -8,8 +8,8 @@
     </template>
     <template #form>
        <div style="display: flex; flex-direction: row;">
-          <VOtpInput ref="otpInput" input-classes="otp-input" separator="-" :num-inputs="4" :should-auto-focus="true" :is-input-num="true" @on-change="handleOnChange" @on-complete="handleOnComplete" />
-      </div>
+          <VOtpInput ref="otpInput" input-classes="otp-input" separator=" " :num-inputs="6" :should-auto-focus="true" :is-input-num="true" @on-change="handleOnChange" @on-complete="handleOnComplete"/>
+        </div>
     </template>
     <template #after-btn>
         <p>Didn't get an email?</p>
@@ -20,6 +20,7 @@
 
 <script>
 // @ is an alias to /src
+import { ref } from 'vue'
 import LoginTemp from '@/components/LoginTemp.vue'
 import TextInput from '@/components/TextInput.vue'
 import VOtpInput from 'vue3-otp-input'
@@ -63,14 +64,20 @@ export default {
   letter-spacing: -0.24px;
 }
 .otp-input {
-  width: 40px;
+  width: 20px;
   height: 40px;
   padding: 5px;
-  margin: 0 10px;
-  font-size: 20px;
+  margin: 24px 0;
+  font-size: 16px;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   text-align: center;
+}
+.otp-input:focus {
+  outline: none;
+}
+button[type='submit'] {
+  display: none !important;
 }
 
 </style>
