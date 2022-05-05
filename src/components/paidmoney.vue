@@ -2,18 +2,18 @@
  
   <div class="paid-money">
     <div class="image-div">
-      <img alt="pound" class="pound" src="../assets/img/pound.png">
-      <img alt="bitcoin" class="bitcoin" src="../assets/img/bitcoin2.png"> 
-      <img alt="dollar" class="dollar" src="../assets/img/dollar.png">
+      <img alt="pound" class="pound" src="../assets/img/92176-euro-3d.gif">
+      <img alt="bitcoin" class="bitcoin" src="../assets/img/8352-bitcoin.gif"> 
+      <img alt="dollar" class="dollar" src="../assets/img/44076-dollar.gif">
     </div>
 
     <div class="text-div">
         <h3>Get paid in cash or crypto with direct deposit</h3>
         <p>Set up a direct deposit and recieve part of your payment in Dollar cash, Euro Cash, Naira Cash or Crypto in any wallet of your choice.</p>
         <ul class="list-div">
-          <li><p>Seamless and Fast</p></li>
-          <li><p>No Transaction Fee</p></li>
-          <li><p>Withdraw in cash or to any wallet of your choice</p></li>
+          <li><img src="../assets/img/greencheck.png" alt=""><p>Seamless and Fast</p></li>
+          <li><img src="../assets/img/greencheck.png" alt=""><p>No Transaction Fee</p></li>
+          <li><img src="../assets/img/greencheck.png" alt=""><p>Withdraw in cash or to any wallet of your choice</p></li>
         </ul>
     </div>
 
@@ -42,6 +42,7 @@ export default {
     }
     .image-div img {
        vertical-align: text-top;
+       width: 250px;
     }
     .text-div {
       text-align: left;
@@ -66,7 +67,12 @@ export default {
       color: #595959;
     }
     .list-div {
-      list-style: url('../assets/img/greencheck.png');
+      list-style: none;
+      padding: 5px;
+    }
+    .list-div img {
+      float: left;
+      margin-right: 12px;
     }
     .list-div p {
       font-size: 14px;
@@ -90,17 +96,18 @@ export default {
     }
     @media screen and (max-width: 576px) {
       .paid-money { 
-        padding: 30px 5px;
-        flex-direction: column;
-      }
-      .image-div img {
-        width: 120px;
+        padding: 20px 5px;
+        flex-direction: column-reverse;
       }
       .text-div {
-        padding: 10px 5px;
+        padding: 5px;
       }
        .image-div, .text-div {
         width: 100%;
+      }
+      .image-div img {
+       vertical-align: text-top;
+       width: 150px;
       }
     }
 </style>

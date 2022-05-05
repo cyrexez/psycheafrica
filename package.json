@@ -11,6 +11,7 @@
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
+    "vue2-animate": "^2.1.4",
     "vue3-otp-input": "^0.2.5"
   },
   "devDependencies": {

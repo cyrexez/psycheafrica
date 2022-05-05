@@ -65,7 +65,8 @@ export default {
     @media screen and (max-width: 576px) {
         .multi-currency {
           padding: 5px;
-          flex-direction: column;
+          flex-direction: column-reverse;
+          text-align: center;
         }
         .image-div, .text-div {
           width: 100%;
@@ -75,6 +76,7 @@ export default {
         }
         .text-div {
           padding: 30px 5px;
+          text-align: center;
         }
     }
 </style>

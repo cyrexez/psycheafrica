@@ -11,7 +11,7 @@
 
 <script>
 // @ is an alias to /src
-
+require('vue2-animate/dist/vue2-animate.min.css')
 import Navbar from '../components/Navbar.vue'
 import Hero from "../components/Hero.vue";
 import PaidMoney from '../components/PaidMoney.vue'

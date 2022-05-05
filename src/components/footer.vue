@@ -2,7 +2,7 @@
 <JoinUs/>
 <div class="footer">
   <div>
-    <p>2022 Psyche Finance . All rights reserved</p>
+    <p>&copy 2022 Psyche Finance. All rights reserved</p>
   </div>
     <div class="socials">  
      <a href=""><img src="../assets/img/bi_linkedin.png"></a>

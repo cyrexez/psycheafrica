@@ -96,6 +96,7 @@ export default {
         }
         .col-1 img, .col-2 img {
           float: none;
+          width: 95%;
         } 
         .col-2 {
           margin-top: 15px;

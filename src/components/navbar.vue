@@ -2,7 +2,7 @@
 
   <nav>
       <div class="logo"><img alt="Psyche logo" src="../assets/img/psyche.png"></div>
-      <div v-if="mobile" class="other">
+      <div class="other">
         <router-link to="/login"><button class="login-btn">Login</button></router-link>
         <EarlyAccess/>
       </div>

@@ -6,13 +6,16 @@
                 <p>Psyche lets you fly the world without any exchange rate hurdles, spending limit just with a single debit card for all. </p>
                 <EarlyAccess/>
         </div>
-        <div class="hero-image">
-            <img src="../assets/img/man.png" alt="">
-            <div class="frames">
-                <img src="../assets/img/frame15.png" alt="">
-                <img src="../assets/img/frame16.png" alt="">
-            </div>
-        </div>  
+        <transition name="fadeRight">
+            <div class="hero-image">
+                <img src="../assets/img/man.png" alt="">
+                <div class="frames">
+                    <img src="../assets/img/frame15.png" alt="">
+                    <img src="../assets/img/frame16.png" alt="">
+                </div>
+            </div> 
+        </transition>
+        
     </div>
     
 </template>
@@ -68,7 +71,7 @@ export default {
     .hero-image {
         background: url('../assets/img/bluevector.png');
         background-repeat: no-repeat;
-        background-position: top center;
+        background-position: top right;
         background-size: contain;
     }
     .frames {
@@ -104,7 +107,7 @@ export default {
             top: 350px;
             width: 350px;
         }
-        .hero-image >img {
+        .hero-image > img {
             width: 350px;
             height: auto;
         }
@@ -112,7 +115,7 @@ export default {
     @media screen and (max-width: 576px) {
         .hero {
             padding: 25px 5px 0;
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
          .hero-content, .hero-image {
             width: 100%;
@@ -120,16 +123,25 @@ export default {
         }
         .hero-content {
             padding: 15px 0 30px;
+            text-align: center;
+        }
+        .hero-content p:last-of-type{
+            text-align: center;
         }
         .hero-image {
-       
-            box-sizing: content-box; }
-        .hero-image >img {
+            box-sizing: content-box; 
+        }
+        .hero-image > img {
             width: 350px;
             height: auto;
         }
-        .hero-content {
-
+         .frames {
+            top: 750px;
+            width: 360px;
+        }
+        .hero-image >img {
+            width: 350px;
+            height: auto;
         }
     }
 </style>
